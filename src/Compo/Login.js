@@ -2,15 +2,15 @@ import React from 'react'
 
 function Login() {
   return (
-    <div className='flex'>
-      <div className='w-1/2 p-4'>
+    <div className='p-10 bg-gradient-to-r from-purple-800 to-blue-800 h-screen flex'>
+      <div className='w-2/3 p-5'>
         <img src='https://eshikshakosh.bihar.gov.in/assets/img/login-left-img.png' alt='bg' />
         <p className='text-white'>" Education is the key to success, Success is the key to achievement, Achievement is the key to hope, Hope is the key to happiness And happiness is the key to harmony"</p>
       </div>
 
-      <div className='m-5 w-1/2 p-4 bg-white rounded-xl'>
+      <div className='w-1/3 p-5 bg-white rounded-xl'>
         {/* logo */}
-        <h1 className='font-bold text-3xl text-center text-blue-700'>LOGO HERE</h1>
+        <h1 className='font-bold text-3xl text-center text-purple-900'>LOGO HERE</h1>
 
         {/* log in category */}
         {/* <h2 className='text-xl text-center text-gray-700 mb-4'>Login</h2> */}
@@ -50,21 +50,23 @@ function Login() {
               className='w-full p-2 border border-gray-300 rounded'
               placeholder='Enter User Captcha'
             />
-            <button className='ml-2 p-2 bg-blue-500 text-white rounded hover:bg-blue-600'>
+            <button className='ml-2 p-2 bg-green-500 text-white rounded hover:bg-green-600'>
               Refresh
             </button>
           </div>
         </div>
 
-        {/* Sign-in button */}
-        <button className='w-full bg-blue-500 text-white p-2 rounded hover:bg-blue-600'>
-          Sign In
-        </button>
+        <div className='flex justify-between'>
+          {/* Sign-in button */}
+          <button className=' bg-green-500 p-3 w-1/2 text-white rounded hover:bg-green-600'>
+            Sign In
+          </button>
 
-        {/* Forget your password */}
-        <p className='text-sm text-gray-500 mt-2'>
-          <a href='#'>Forgot your password?</a>
-        </p>
+          {/* Forget your password */}
+          <p className='text-sm text-gray-500 w-1/2'>
+            <a href='#'>Forgot your password?</a>
+          </p>
+        </div>
       </div>
 
 
