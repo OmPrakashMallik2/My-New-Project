@@ -2,13 +2,15 @@ import React from 'react'
 
 function Login() {
   return (
-    <div className='p-10 bg-gradient-to-r from-purple-800 to-blue-800 h-screen flex'>
-      <div className='w-2/3 p-5'>
-        <img src='https://eshikshakosh.bihar.gov.in/assets/img/login-left-img.png' alt='bg' />
-        <p className='text-white'>" Education is the key to success, Success is the key to achievement, Achievement is the key to hope, Hope is the key to happiness And happiness is the key to harmony"</p>
+    <div className='justify-space bg-gradient-to-r from-purple-800 to-blue-800 h-screen flex'>
+
+      <div className='bg-red-600 w-2/3'>
+        <img className='justify-center bg-blue-500' src='https://eshikshakosh.bihar.gov.in/assets/img/login-left-img.png' alt='bg' />
+        <p className='text-white text-center '>" Education is the key to success, Success is the key to achievement, Achievement is the key to hope, Hope is the key to happiness And happiness is the key to harmony"</p>
+        <p className='text-white text-center font-bold'>Contact : 7352281493, 7520239853</p>
       </div>
 
-      <div className='w-1/3 p-5 bg-white rounded-xl'>
+      <div className='w-1/3 p-10 mr-30 bg-white rounded-xl'>
         {/* logo */}
         <h1 className='font-bold text-3xl text-center text-purple-900'>LOGO HERE</h1>
 
